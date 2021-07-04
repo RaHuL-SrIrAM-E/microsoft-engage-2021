@@ -1,0 +1,86 @@
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(247, 246, 244);
+}
+
+.home-page {
+    padding-top: 90px;
+    margin: auto;
+    align-items: right;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/3239444.jpg");
+    background-size: 100vmax, 0vmin;
+}
+
+.home-page .action-btn {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.home-page .action-btn .btn {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.home-page .action-btn .input-block {
+    margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  .home-page .action-btn .input-block .input-section {
+    position: relative;
+    margin-right: 10px;
+    text-decoration-style: solid;
+    color: white;
+    text-emphasis-color: white;
+  }
+
+  .home-page .action-btn .input-block .input-section input {
+    font-size: 16px;
+    height: 48px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 35px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+  }
+
+  ::-webkit-input-placeholder {
+      color: yellow;
+  }
